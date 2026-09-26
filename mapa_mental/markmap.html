@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"Ecosistema de Modelos de IA","children":[{"content":"1. Fundamentos","children":[{"content":"Machine Learning","children":[{"content":"Deep Learning","children":[{"content":"Arquitectura Transformer (Base de los modelos fundacionales actuales)","children":[],"payload":{"tag":"h5","lines":"5,6"}}],"payload":{"tag":"h4","lines":"4,5"}}],"payload":{"tag":"h3","lines":"3,4"}}],"payload":{"tag":"h2","lines":"2,3"}},{"content":"2. Tipos de Modelos","children":[{"content":"LLM (Large Language Model)","children":[{"content":"Procesamiento de texto (ej. Llama 3)","children":[],"payload":{"tag":"li","lines":"9,10"}}],"payload":{"tag":"h3","lines":"8,9"}},{"content":"SLM (Small Language Model)","children":[{"content":"Modelos eficientes para hardware local","children":[],"payload":{"tag":"li","lines":"11,12"}}],"payload":{"tag":"h3","lines":"10,11"}},{"content":"VLM / Multimodales","children":[{"content":"Entienden im&#xe1;genes y texto (Vision Language Model)","children":[],"payload":{"tag":"li","lines":"13,14"}}],"payload":{"tag":"h3","lines":"12,13"}},{"content":"Modelos de C&#xf3;digo","children":[{"content":"Especializados en sintaxis de programaci&#xf3;n (ej. Qwen Coder)","children":[],"payload":{"tag":"li","lines":"15,16"}}],"payload":{"tag":"h3","lines":"14,15"}},{"content":"Modelos de Voz","children":[{"content":"STT (Speech-to-Text): Voz a texto","children":[],"payload":{"tag":"li","lines":"17,18"}},{"content":"TTS (Text-to-Speech): Texto a voz","children":[],"payload":{"tag":"li","lines":"18,19"}}],"payload":{"tag":"h3","lines":"16,17"}},{"content":"Embeddings","children":[{"content":"Representaciones vectoriales de datos","children":[],"payload":{"tag":"li","lines":"20,22"}}],"payload":{"tag":"h3","lines":"19,20"}}],"payload":{"tag":"h2","lines":"7,8"}},{"content":"3. Funcionamiento","children":[{"content":"Par&#xe1;metros","children":[{"content":"El &quot;tama&#xf1;o del cerebro&quot; (capacidad de conocimiento y razonamiento)","children":[],"payload":{"tag":"li","lines":"24,25"}},{"content":"Se conecta con la Cuantizaci&#xf3;n &#x1f447;","children":[],"payload":{"tag":"li","lines":"25,26"}}],"payload":{"tag":"h3","lines":"23,24"}},{"content":"Cuantizaci&#xf3;n","children":[{"content":"Compresi&#xf3;n del modelo (reducci&#xf3;n de precisi&#xf3;n de los par&#xe1;metros)","children":[],"payload":{"tag":"li","lines":"27,28"}},{"content":"Permite que modelos gigantes quepan en la RAM/VRAM local","children":[],"payload":{"tag":"li","lines":"28,29"}}],"payload":{"tag":"h3","lines":"26,27"}},{"content":"Ventana de Contexto","children":[{"content":"L&#xed;mite estricto de cu&#xe1;nta informaci&#xf3;n recuerda o procesa de golpe","children":[],"payload":{"tag":"li","lines":"30,32"}}],"payload":{"tag":"h3","lines":"29,30"}}],"payload":{"tag":"h2","lines":"22,23"}},{"content":"4. Formas de Uso e Infraestructura","children":[{"content":"Local (Tu PC)","children":[{"content":"Requiere hardware f&#xed;sico: CPU/RAM o GPU/VRAM","children":[],"payload":{"tag":"li","lines":"34,35"}},{"content":"Herramientas: Ollama, LM Studio","children":[],"payload":{"tag":"li","lines":"35,36"}}],"payload":{"tag":"h3","lines":"33,34"}},{"content":"Cloud (Nube)","children":[{"content":"No requiere hardware local potente","children":[],"payload":{"tag":"li","lines":"37,38"}},{"content":"Se consume por API (ej. OpenAI, Anthropic)","children":[],"payload":{"tag":"li","lines":"38,39"}}],"payload":{"tag":"h3","lines":"36,37"}}],"payload":{"tag":"h2","lines":"32,33"}}],"payload":{"tag":"h1","lines":"1,2"}},null)</script>
+</body>
+</html>

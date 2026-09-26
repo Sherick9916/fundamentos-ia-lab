@@ -1,0 +1,8 @@
+Modelo	Proveedor	Tipo	Local / Cloud	Tamaño / Contexto	Hardware	API / Costo	Uso recomendado
+Llama 3.1 8B	Meta	LLM Generalista	Ambos	8B param / 128k	8GB RAM/VRAM	Open-weights / Gratis	Tareas generales locales, chatbots básicos.
+GPT-4o	OpenAI	Multimodal / Razonamiento	Cloud	Desconocido / 128k	N/A (Cloud)	Pago por token	Problemas complejos, arquitectura de software.
+Qwen2.5 Coder	Alibaba	Modelo de Código	Ambos	7B param / 32k	8GB RAM/VRAM	Open-weights / Gratis	Autocompletado de código local, scripts.
+Claude 3.5 Sonnet	Anthropic	LLM / Coding	Cloud	Desconocido / 200k	N/A (Cloud)	Pago por token	Refactorización profunda, Vibe Coding avanzado.
+LLaVA	OSS Community	VLM (Visión)	Local	7B param / 4k	8GB VRAM	Open-weights / Gratis	Extraer texto de diagramas UML o imágenes.
+Whisper V3	OpenAI	STT (Voz)	Ambos	1.5B param	4GB VRAM	Gratis local / Pago API	Transcribir reuniones de levantamiento de requisitos.
+Nomic-embed	Nomic AI	Embeddings	Local	137M / 8k	2GB RAM	Open-weights / Gratis	Búsqueda semántica en bases de código (RAG).
