@@ -20,7 +20,7 @@ Este repositorio documenta nuestra ruta de aprendizaje práctico, pasando desde 
 Para ejecutar los scripts de este repositorio, es necesario instalar las dependencias de Python listadas en el proyecto[cite: 1]. Ejecute el siguiente comando en la terminal:
 ```bash
 pip install -r requirements.txt
-
+```
 Cómo ejecutar el Reto Integrador (Serie Temporal)
 La aplicación principal se conecta a la API histórica de Open-Meteo, procesa los datos de temperatura de Manizales (2023) y genera predicciones comparando un modelo de media móvil contra un baseline de persistencia[cite: 1].
 
