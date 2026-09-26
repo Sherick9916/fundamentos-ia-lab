@@ -26,7 +26,8 @@ La aplicación principal se conecta a la API histórica de Open-Meteo, procesa l
 
 Para ejecutar el proyecto, ingrese a la carpeta correspondiente e inicie la aplicación principal:
 
+```bash
 cd serie_temporal
 python app.py
-
+```
 Al finalizar la ejecución en consola, el sistema desplegará automáticamente la gráfica comparativa de la serie temporal
